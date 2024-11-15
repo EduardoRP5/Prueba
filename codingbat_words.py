@@ -8,7 +8,7 @@ def word_multiple(strings):
     return word_map
 
 # Datos Prueba
-strings = ["platano", "platano", "manzana", "manzana", "uva", "Sandia"]
+strings = ["platano", "platano", "manzana", "platano", "uva", "Sandia"]
 Resultado = word_multiple(strings)
 
 print(Resultado)
